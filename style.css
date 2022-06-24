@@ -1,0 +1,15 @@
+/*
+Theme Name: FSE Tester
+Author: Grover Stones
+Description:To test full site editing using the tutorial at https://fullsiteediting.com/
+Version: 0.0.0
+Requires at least: 5.9
+Tested up to: 5.9
+Requires PHP: 7.4
+License: Copyright free
+Text Domain: fsetester
+*/
+
+.is-style-green {
+  color: green;
+}
