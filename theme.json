@@ -169,9 +169,9 @@
       "title": "Big Footer"
     },
     {
-      "name": "another-template-part",
+      "name": "recent-posts-query-loop",
       "area": "uncategorized",
-      "title": "Another template part"
+      "title": "Another template part containing a query loop"
     }
   ],
   "customTemplates": [
