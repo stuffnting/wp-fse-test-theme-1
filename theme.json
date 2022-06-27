@@ -70,22 +70,6 @@
           "fontFamily": "Georgia, \"Times New Roman\", serif",
           "slug": "serif-fonts",
           "name": "Serif"
-        },
-        {
-          "fontFamily": "Montserrat, serif",
-          "name": "Montserrat",
-          "slug": "montserrat-sans-serif",
-          "fontFace": [
-            {
-              "fontFamily": "Montserrat",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "https://fonts.googleapis.com/css2?family=Montserrat&display=swa"
-              ]
-            }
-          ]
         }
       ],
       "fontSizes": [
