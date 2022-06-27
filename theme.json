@@ -79,14 +79,24 @@
           "name": "Super Small"
         },
         {
-          "slug": "extra-normal",
+          "slug": "normal",
           "size": "1rem",
-          "name": "Extra Small"
+          "name": "Normal"
         },
         {
-          "slug": "quite-large",
+          "slug": "large",
+          "size": "1.5rem",
+          "name": "Large"
+        },
+        {
+          "slug": "extra-large",
+          "size": "2rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "super-large",
           "size": "3rem",
-          "name": "Quite large"
+          "name": "Super large"
         }
       ]
     },
@@ -196,6 +206,11 @@
       "name": "recent-posts-query-loop",
       "area": "uncategorized",
       "title": "Recent posts query loop"
+    },
+    {
+      "name": "top-menu",
+      "area": "uncategorized",
+      "title": "Top navigation menu"
     }
   ],
   "customTemplates": [
