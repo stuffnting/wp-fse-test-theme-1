@@ -190,5 +190,6 @@
       "title": "It does wonderful things",
       "postTypes": ["page", "post"]
     }
-  ]
+  ],
+  "patterns": ["short-text-surrounded-by-round-images", "partner-logos"]
 }
