@@ -8,8 +8,6 @@
  * @since 0.0.0
  */
 
-require_once 'patterns/two-cols-two-pics.php';
-
 /**
  * Theme setup function.
  * 
