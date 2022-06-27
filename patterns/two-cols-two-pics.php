@@ -41,5 +41,3 @@
     <!-- /wp:column -->
   </div>
  <!-- /wp:columns -->
- 
- <?php snt_dump( esc_url( get_theme_file_uri( 'assets/block-pattern-image.jpg' ) ) ); ?>
