@@ -24,6 +24,11 @@
           "slug": "dark-grey",
           "color": "#404040",
           "name": "Dark Grey"
+        },
+        {
+          "slug": "silly-yellow",
+          "color": "yellow",
+          "name": "Silly Yellow"
         }
       ],
       "gradients": [
@@ -58,13 +63,29 @@
       "fontFamilies": [
         {
           "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-          "slug": "some-fonts",
-          "name": "System Fonts"
+          "slug": "sans-serif-fonts",
+          "name": "Sans Serif"
         },
         {
-          "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
-          "slug": "some-more-verdana",
-          "name": "Helvetica/Arial"
+          "fontFamily": "Georgia, \"Times New Roman\", serif",
+          "slug": "serif-fonts",
+          "name": "Serif"
+        },
+        {
+          "fontFamily": "Montserrat, serif",
+          "name": "Montserrat",
+          "slug": "montserrat-sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Montserrat",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Montserrat&display=swa"
+              ]
+            }
+          ]
         }
       ],
       "fontSizes": [
@@ -121,7 +142,7 @@
   "styles": {
     "color": {
       "background": "#E0E0E0",
-      "text": "var(--wp--custom--color--purple)"
+      "text": "var(--wp--preset--color--dark-grey)"
     },
     "spacing": {
       "blockGap": "1.5rem"
@@ -135,6 +156,13 @@
       "core/heading": {
         "color": {
           "text": "var(--wp--preset--color--vivid-red)"
+        },
+        "elements": {
+          "link": {
+            "color": {
+              "text": "Orange"
+            }
+          }
         }
       },
       "core/cover": {
@@ -160,6 +188,13 @@
           }
         }
       }
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "Pink"
+        }
+      }
     }
   },
   "templateParts": [
@@ -176,7 +211,7 @@
     {
       "name": "recent-posts-query-loop",
       "area": "uncategorized",
-      "title": "Another template part containing a query loop"
+      "title": "Recent posts query loop"
     }
   ],
   "customTemplates": [

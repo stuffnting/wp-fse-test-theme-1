@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "styles": {
+    "color": {
+      "background": "DodgerBlue",
+      "text": "PowderBlue"
+    },
+    "blocks": {
+      "core/heading": {
+        "color": {
+          "text": "MidnightBlue"
+        }
+      }
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "Gold"
+        }
+      }
+    }
+  }
+}
